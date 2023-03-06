@@ -1,0 +1,176 @@
+tap "epk/epk"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# POSIX-compliant descendant of NetBSD's ash (the Almquist SHell)
+brew "dash"
+# Secure runtime for JavaScript and TypeScript
+brew "deno"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Isolated development environments using Docker
+brew "docker-compose"
+# Create Docker hosts locally and on cloud providers
+brew "docker-machine"
+# Modern replacement for 'ls'
+brew "exa"
+# Command-line outline and bitmap font editor/converter
+brew "fontforge"
+# Create and edit releases on Github (and upload artifacts)
+brew "github-release"
+# Open-source video transcoder available for Linux, Mac, and Windows
+brew "handbrake"
+# Update of iperf: measures TCP, UDP, and SCTP bandwidth
+brew "iperf3"
+# Mac App Store command-line interface
+brew "mas"
+# Matroska media files manipulation tools
+brew "mkvtoolnix"
+# Development kit for the Java programming language
+brew "openjdk@17"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Open source continuous file synchronization application
+brew "syncthing", restart_service: true
+# Seamless ssh-agent for YubiKeys and other PIV tokens
+brew "yubikey-agent"
+# Professional graphic design software
+cask "affinity-designer"
+# Professional image editing software
+cask "affinity-photo"
+# Professional desktop publishing software
+cask "affinity-publisher"
+# AirPods companion app
+cask "airbuddy"
+# Enable Windows-like alt-tab
+cask "alt-tab"
+# Automatic tiling window manager similar to xmonad
+cask "amethyst"
+# Application uninstaller
+cask "appcleaner"
+# Manage team projects and tasks
+cask "asana"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
+# Desktop casting/streaming app for Apple TV and Chromecast
+cask "beamer"
+# 3D creation suite
+cask "blender"
+# Tool to list all active shortcuts of the current application
+cask "cheatsheet"
+# Tool to remove unnecessary files and folders from disk
+cask "cleanmymac"
+# Screen capturing tool
+cask "cleanshot"
+# Downloads videos from different websites
+cask "downie"
+# Productivity app
+cask "dropzone"
+# VPN client for secure internet access and private browsing
+cask "expressvpn"
+# Collaborative team software
+cask "figma"
+# Desktop customization tool
+cask "geektool"
+# Web browser
+cask "google-chrome"
+# Automated organization
+cask "hazel"
+# Free and open-source media player
+cask "iina"
+# Tool to optimize images to a smaller size
+cask "imageoptim"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# Automatic time-tracking solution or freelancers and makers
+cask "klokki"
+# WordPress local development tool by Flywheel
+cask "local"
+# Cable-free audio router
+cask "loopback"
+# Adaptive brightness for external displays
+cask "lunar"
+# Track and update to the latest versions of installed software
+cask "macupdater"
+# App to write, plan, collaborate, and get organized
+cask "notion"
+# Calculator and converter application
+cask "numi"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# Converts and edits video, audio or image files
+cask "permute"
+# Screen measuring tool
+cask "pixelsnap"
+# Collaboration platform for API development
+cask "postman"
+# Imaging utility to install operating systems to a microSD card
+cask "raspberry-pi-imager"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Window snapping tool
+cask "rectangle-pro"
+# Batch file renamer application
+cask "renamer"
+# Team communication and collaboration software
+cask "slack"
+# Sound and audio controller
+cask "soundsource"
+# Music streaming service
+cask "spotify"
+# Video game digital distribution service
+cask "steam"
+# Customize mouse buttons, wheels and cursor speed
+cask "steermouse"
+# Messaging app with a focus on speed and security
+cask "telegram"
+# Disposable email client
+cask "tempbox"
+# Extract text from images and other digital documents in seconds
+cask "textsniper"
+# Temperature monitoring, fan control and diagnostics
+cask "tg-pro"
+# Unpacks archive files
+cask "the-unarchiver"
+# To-do list
+cask "todoist"
+# File transfer application
+cask "transmit"
+# Open-source code editor
+cask "visual-studio-code"
+# Create, manage, and run virtual machines
+cask "vmware-fusion"
+# Video communication and virtual meeting platform
+cask "zoom"
+mas "Amphetamine", id: 937984704
+mas "ColorSlurp", id: 1287239339
+mas "Compressor", id: 424390742
+mas "DigiDoc4 Client", id: 1370791134
+mas "Fantastical", id: 975937182
+mas "Final Cut Pro", id: 424389933
+mas "Flow", id: 1423210932
+mas "GarageBand", id: 682658836
+mas "GoodNotes", id: 1444383602
+mas "Grocery", id: 1195676848
+mas "Image2icon", id: 992115977
+mas "iNet Network Scanner", id: 403304796
+mas "Keynote", id: 409183694
+mas "Motion", id: 434290957
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Parcel", id: 639968404
+mas "Pastebot", id: 1179623856
+mas "Playgrounds", id: 1496833156
+mas "RunCat", id: 1429033973
+mas "Shazam", id: 897118787
+mas "Silicio", id: 933627574
+mas "Speedtest", id: 1153157709
+mas "Tot", id: 1491071483
+mas "Velja", id: 1607635845
+mas "Web eID", id: 1576665083
+mas "Xcode", id: 497799835

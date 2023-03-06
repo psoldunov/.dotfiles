@@ -1,0 +1,24 @@
+export PATH="$PATH:$HOME/.local/bin"
+export DOTFILES="$HOME/.dotfiles"
+export ZSH="$DOTFILES/zsh"
+
+# Variables
+import $ZSH/variables.zsh
+
+autoload -Uz compinit
+compinit
+
+# Aliases
+source $ZSH/aliases.zsh
+
+# Plugins
+[[ -f $ZSH/starship/starship.zsh ]] && source $ZSH/starship/starship.zsh
+source $ZSH/plugins/zsh-nvm/zsh-nvm.plugin.zsh
+source $ZSH/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $ZSH/plugins/zsh-better-npm-completion/zsh-better-npm-completion.plugin.zsh
+
+# Functions
+source $ZSH/functions.zsh
+
+# ZSH Starship Prompt
+eval "$(starship init zsh)"
